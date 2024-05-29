@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Conversor de Temperaturas</title>
+</head>
+<body>
+    <h1>Conversor de temperaturas</h1>
+
+    <input id="entrada" type="text" placeholder="Ingrese su temperatura en celsius">
+    <button onclick="convertTemperature()">Enviar</button>
+
+    <section class="kelvin">
+        <p class="text">Su temperatura en kelvin</p>
+        <p id="result-k"></p>
+
+    </section>
+
+    <section class="fahrenheit">
+        <p class="text">Su temperatura en fahrenheit</p>
+        <p id="result-f"></p>
+
+    </section>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
